@@ -4,7 +4,7 @@
   "description": "Shared linter settings",
   "main": "./eslint-config.js",
   "scripts": {
-    "publish": "npm publish --access=public"
+    "publish-package": "npm publish --access=public"
   },
   "author": "Konstantin Zhitkov <zhitkovkostya@gmail.com>",
   "license": "ISC",
