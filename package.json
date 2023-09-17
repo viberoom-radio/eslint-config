@@ -1,0 +1,21 @@
+{
+  "name": "@viberoom/eslint-config",
+  "version": "1.0.0",
+  "description": "Shared linter settings",
+  "main": "./eslint-config.js",
+  "scripts": {
+    "publish": "npm publish --access=public"
+  },
+  "author": "Konstantin Zhitkov <zhitkovkostya@gmail.com>",
+  "license": "ISC",
+  "peerDependencies": {
+    "@typescript-eslint/eslint-plugin": "^6.0.0",
+    "eslint": "^8.0.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-react": "^7.0.0"
+  },
+  "devDependencies": {
+    "eslint": "8.49.0",
+    "eslint-config-prettier": "9.0.0"
+  }
+}
